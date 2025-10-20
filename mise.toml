@@ -1,0 +1,7 @@
+[tasks.exec]
+description = "Exec main.py"
+run = "python main.py"
+
+[tasks.build]
+description = "Build .exe with pyinstaller"
+run = "python -m PyInstaller main.py -F -n copia-mundos-minecraft.exe"
